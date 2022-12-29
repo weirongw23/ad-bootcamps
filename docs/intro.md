@@ -2,46 +2,35 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome! You've officially landed on Atlas Digital Bootcamps. We're here to give you the tools and skills to succeed in your projects and throughout internships.
 
-## Getting Started
+**About Bootcamps**
+
+As the title suggests, these are "bootcamps" are not full documentations. It is here to point out the key concepts and ideas, point you to great resources, and list mistakes so you don't have to go through the same pain. The goal is to provide a baseline knowledge to help accelerate your learning processing in a particular domain that will be helpful for your project in Atlas Digital and beyond.
+
+**The introduction will cover:**
+
+1. **Roadmap:** What sections of the tutorial you should go through, based on your project's requirements
+2. **Developer Tools:** Setting up WSL, Mac, and Terminal
+
+After this, you'll be ready to dive into any tutorials here.
+
+## Roadmap
 
 Get started by **creating a new site**.
 
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+## Developer Tools
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Hello
 
-## Generate a new site
+## Upcoming Bootcamps
 
-Generate a new Docusaurus site using the **classic template**.
+These bootcamps are currently in the works!
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+-   Deep Learning (**Release: March 2023**)
+-   Introduction to Natural Language Processing (**Release: May 2023**)
+-   iOS Development (**Release: September 2023**)
