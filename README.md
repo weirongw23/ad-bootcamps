@@ -12,7 +12,7 @@ The goal of these bootcamps is to create a box of tutorials and walkthroughs tha
 
 Since these bootcamps are relatively new, please send us feedbacks so we can make it better for everyone.
 
-## Running the code locally
+## Local Development
 
 First, clone the repository from Github. Then, run `npm run start` to start the development server. As you modify the JavaScript and Markdown pages, the changes will be automatically reflected on the browser (as long as you don't close the terminal session).
 
@@ -21,7 +21,7 @@ $ git clone git@github.com:weirongw23/ad-bootcamps.git
 $ npm run start
 ```
 
-### Installation and Local Development
+### Getting Started
 
 If the above command does not work, this command starts a local development server and opens up a browser window.
 
@@ -30,33 +30,12 @@ $ yarn
 $ yarn start
 ```
 
-## Contributing
+## Alternative Methods
 
-Interested in contributing to Atlas Digital bootcamps? We'd love to see your work. Follow these instructions on how to contribute.
+Interested in contributing to Atlas Digital bootcamps? We'd love to see your work. Here are the ways to contribute:
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+1. Create an issue for a feature that you want to see or a bug
+2. Clone the repository, add some features, and create a pull request.
 
 ## Authors
 
