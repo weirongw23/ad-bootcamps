@@ -6,22 +6,17 @@ const darkCodeTheme = require("prism-react-renderer/themes/okaidia");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "My Site",
-	tagline: "Dinosaurs are cool",
+	title: "Atlas Digital Bootcamps",
+	tagline: "v0.0",
+
+	// TODO: Fix URL for deployment
 	url: "https://your-docusaurus-test-site.com",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
 
-	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
-
-	// Even if you don't use internalization, you can use this field to set useful
-	// metadata like html lang. For example, if your site is Chinese, you may want
-	// to replace "en" with "zh-Hans".
+	// Internationalization
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en"],
@@ -34,17 +29,15 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
+					// Change this for "edit this page" links.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/weirongw23/ad-bootcamps/tree/main",
 				},
 				blog: {
 					showReadingTime: true,
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
+					// Change this for "edit this page" links.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/weirongw23/ad-bootcamps/tree/main",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -57,10 +50,10 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
-				title: "My Site",
+				title: "AD Bootcamps",
 				logo: {
 					alt: "My Site Logo",
-					src: "img/logo.svg",
+					src: "img/favicon.ico",
 				},
 				items: [
 					{
@@ -71,7 +64,7 @@ const config = {
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://github.com/weirongw23/ad-bootcamps",
 						label: "GitHub",
 						position: "right",
 					},
@@ -87,40 +80,44 @@ const config = {
 								label: "Tutorial",
 								to: "/docs/intro",
 							},
+							{
+								label: "Blog",
+								to: "/blog",
+							},
 						],
 					},
 					{
 						title: "Community",
 						items: [
 							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
+								label: "About Us",
+								href: "https://atlasdigital.org/",
 							},
 							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
+								label: "Instagram",
+								href: "https://www.instagram.com/atlasdigital_um/",
 							},
 							{
-								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
+								label: "Github",
+								href: "https://github.com/atlas-digital-um",
 							},
 						],
 					},
 					{
-						title: "More",
+						title: "Contact",
 						items: [
 							{
-								label: "Blog",
-								to: "/blog",
+								label: "Email",
+								href: "mailto:atlasdigitalum@gmail.com",
 							},
 							{
-								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								label: "Client Interest Form",
+								href: "https://docs.google.com/forms/d/e/1FAIpQLSfNJXvbv7DkYO2upOAVmDQ4nehgf-WpuRgOEnzFKO8rOMgpPA/viewform",
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Atlas Digital. Built with Docusaurus ❤️.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
