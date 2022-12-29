@@ -14,6 +14,8 @@ Since these bootcamps are relatively new, please send us feedbacks so we can mak
 
 ## Local Development
 
+### Getting Started
+
 First, clone the repository from Github. Then, run `npm run start` to start the development server. As you modify the JavaScript and Markdown pages, the changes will be automatically reflected on the browser (as long as you don't close the terminal session).
 
 ```
@@ -21,7 +23,7 @@ $ git clone git@github.com:weirongw23/ad-bootcamps.git
 $ npm run start
 ```
 
-### Getting Started
+### Alternative Methods
 
 If the above command does not work, this command starts a local development server and opens up a browser window.
 
@@ -30,7 +32,7 @@ $ yarn
 $ yarn start
 ```
 
-## Alternative Methods
+## Contributing
 
 Interested in contributing to Atlas Digital bootcamps? We'd love to see your work. Here are the ways to contribute:
 
