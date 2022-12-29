@@ -4,7 +4,13 @@
 
 ## Introduction
 
+Welcome everyone! This is the first edition of tutorials to help you get contributing on your project as soon as possible.
+
 These tutorials are made for analysts of all backgrounds. It covers basic scripting, the internals of Git, and full-stack development.
+
+The goal of these bootcamps is to create a box of tutorials and walkthroughs that help you _understand_ the basic concepts behind the tech stack we're using and what the project workflow looks like.
+
+Since these bootcamps are relatively new, please send us feedbacks so we can make it better for everyone.
 
 ## Running the code locally
 
