@@ -10,7 +10,9 @@ Welcome! You've officially landed on Atlas Digital Bootcamps. We're here to give
 
 As the title suggests, these are "bootcamps" are not full documentations. It is here to point out the key concepts and ideas, point you to great resources, and list mistakes so you don't have to go through the same pain. The goal is to provide a baseline knowledge to help accelerate your learning processing in a particular domain that will be helpful for your project in Atlas Digital and beyond.
 
-**The introduction will cover:**
+**Getting Started**
+
+This section will cover:
 
 1. **Roadmap:** What sections of the tutorial you should go through, based on your project's requirements
 2. **Developer Tools:** Setting up WSL, Mac, and Terminal
@@ -27,7 +29,7 @@ Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new
 
 Hello
 
-## Upcoming Bootcamps
+## What's Next?
 
 These bootcamps are currently in the works!
 
